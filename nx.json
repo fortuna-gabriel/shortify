@@ -35,7 +35,11 @@
       "options": {
         "targetName": "test"
       },
-      "exclude": ["apps/shortify-e2e/**/*"]
+      "exclude": [
+        "apps/shortify-e2e/**/*",
+        "auth-service-e2e/**/*",
+        "shortify-service-e2e/**/*"
+      ]
     }
   ]
 }
